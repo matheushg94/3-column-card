@@ -58,6 +58,7 @@ body {
     font-family: var(--ff-base);
     font-weight: var(--fw-normal);
     font-size: 15px;
+    font-size: 0.938rem;
 }
 
 main {
@@ -70,7 +71,9 @@ main {
     display: flex;
     flex-flow: column nowrap;
     width: 335px;
+    width: 20.938rem;
     margin: 20px;
+    margin: 1.25rem;
     border-radius: 10px;
     overflow: hidden;
 }
@@ -79,6 +82,7 @@ main {
     .card {
         flex-flow: row nowrap;
         width: 920px;
+        width: 57.5rem;
     }
 }
 
@@ -86,7 +90,9 @@ main {
     display: flex;
     flex-flow: column nowrap;
     gap: 30px;
+    gap: 1.875rem;
     padding: 50px;
+    padding: 3.125rem;
 }
 
 .model-sedan {
@@ -104,6 +110,7 @@ main {
 .title {
     font-family: var(--ff-accent);
     font-weight: var(--fw-bold);
+    font-size: 38.4px;
     font-size: 2.4rem;
     color: var(--color5);
     text-transform: uppercase;
@@ -116,7 +123,9 @@ main {
 .btn {
     border: solid 2px var(--color5);
     width: 150px;
+    width: 9.375rem;
     height: 50px;
+    height: 3.125rem;
     border-radius: 50px;
     background-color: var(--color5);
     transition-duration: .2s;

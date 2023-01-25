@@ -18,9 +18,9 @@
   <link rel="stylesheet" href="css/main.css">
 
 </head>
-<body>
+<body onload="fullWidthSizing()">
   
-  <main>
+  <main class="main">
     <div class="card">
 
       <!-- SEDAN -->
@@ -64,8 +64,17 @@
   
   <footer class="footer">
     Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-    Coded by <a href="#">Your Name Here</a>.
+    Coded by <a href="https://github.com/MatheusHG94" target="_blank">Matheus Henrique Grande</a>.
   </footer>
+
+  <script>
+    function fullWidthSizing() {
+      const scrollbarWidth = window.innerWidth - document.documentElement.clientWidth
+
+      document.querySelector('body').style.width = `calc(100vw - ${scrollbarWidth}px)`
+      document.querySelector('html').style.width = `calc(100vw - ${scrollbarWidth}px)`
+    }
+  </script>
 
 </body>
 </html>
