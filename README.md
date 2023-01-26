@@ -45,7 +45,7 @@ Users should be able to:
 
 ### What I learned
 
-Finally found a solution for the overflow problem caused by the side scrollbar width:
+Thankfully found a solution for the overflow problem caused by the side scrollbar width:
 
 ```js
 function fullWidthSizing() {
